@@ -253,6 +253,101 @@ export default function Home() {
         </div>
       </section>
       
+      {/* Tech Stack Section */}
+      <section className="bg-slate py-20 px-8">
+        <div className="max-w-6xl mx-auto">
+          {/* Section Title */}
+          <h2 className="font-titulo text-4xl md:text-5xl font-bold text-cyan uppercase tracking-wider text-center mb-16">
+            Tech Stack
+          </h2>
+          
+          {/* Intro */}
+          <p className="font-texto text-xl text-off-white text-center mb-16 max-w-4xl mx-auto leading-relaxed">
+            Modern problems require modern tools. Minha stack é pragmática: 
+            uso o que resolve o problema da forma mais eficiente, sem dogmas.
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Frontend */}
+            <div className="bg-carvao p-6 rounded-lg border-2 border-cyan hover:border-magenta transition-all duration-300">
+              <h3 className="font-titulo text-xl text-cyan uppercase mb-4">Frontend</h3>
+              <div className="space-y-3">
+                <div className="flex flex-wrap gap-2">
+                  <span className="font-texto bg-cyan text-carvao px-3 py-1 rounded text-sm font-semibold">React</span>
+                  <span className="font-texto bg-cyan text-carvao px-3 py-1 rounded text-sm font-semibold">Next.js</span>
+                  <span className="font-texto bg-cyan text-carvao px-3 py-1 rounded text-sm font-semibold">TypeScript</span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="font-texto bg-steel-blue text-off-white px-3 py-1 rounded text-sm font-semibold">Tailwind CSS</span>
+                  <span className="font-texto bg-steel-blue text-off-white px-3 py-1 rounded text-sm font-semibold">Responsive Design</span>
+                </div>
+              </div>
+            </div>
+            
+            {/* Backend & Automation */}
+            <div className="bg-carvao p-6 rounded-lg border-2 border-steel-blue hover:border-cyan transition-all duration-300">
+              <h3 className="font-titulo text-xl text-cyan uppercase mb-4">Backend & Automation</h3>
+              <div className="space-y-3">
+                <div className="flex flex-wrap gap-2">
+                  <span className="font-texto bg-cyan text-carvao px-3 py-1 rounded text-sm font-semibold">JavaScript/Node</span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="font-texto bg-steel-blue text-off-white px-3 py-1 rounded text-sm font-semibold">n8n (workflow automation)</span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="font-texto bg-magenta text-off-white px-3 py-1 rounded text-sm font-semibold">API Integration</span>
+                </div>
+              </div>
+            </div>
+            
+            {/* Tools & Methodology */}
+            <div className="bg-carvao p-6 rounded-lg border-2 border-magenta hover:border-cyan transition-all duration-300">
+              <h3 className="font-titulo text-xl text-cyan uppercase mb-4">Tools & Methodology</h3>
+              <div className="space-y-3">
+                <div className="flex flex-wrap gap-2">
+                  <span className="font-texto bg-cyan text-carvao px-3 py-1 rounded text-sm font-semibold">No Code / Low Code</span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="font-texto bg-steel-blue text-off-white px-3 py-1 rounded text-sm font-semibold">AI-Assisted Development</span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="font-texto bg-magenta text-off-white px-3 py-1 rounded text-sm font-semibold">Vibe Coding</span>
+                  <span className="font-texto bg-magenta text-off-white px-3 py-1 rounded text-sm font-semibold">Git & Version Control</span>
+                </div>
+              </div>
+            </div>
+            
+            {/* Design */}
+            <div className="bg-carvao p-6 rounded-lg border-2 border-cyan hover:border-magenta transition-all duration-300">
+              <h3 className="font-titulo text-xl text-cyan uppercase mb-4">Design</h3>
+              <div className="space-y-3">
+                <div className="flex flex-wrap gap-2">
+                  <span className="font-texto bg-cyan text-carvao px-3 py-1 rounded text-sm font-semibold">Web Design</span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="font-texto bg-steel-blue text-off-white px-3 py-1 rounded text-sm font-semibold">UI/UX Principles</span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="font-texto bg-magenta text-off-white px-3 py-1 rounded text-sm font-semibold">Visual Communication</span>
+                  <span className="font-texto bg-magenta text-off-white px-3 py-1 rounded text-sm font-semibold">Design Systems</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Filosofia */}
+          <div className="mt-16 text-center">
+            <div className="bg-carvao p-8 rounded-lg border-2 border-cyan max-w-4xl mx-auto">
+              <h3 className="font-titulo text-xl text-cyan uppercase mb-4">Filosofia</h3>
+              <p className="font-texto text-off-white leading-relaxed text-lg">
+                A melhor ferramenta é a que entrega resultado. Às vezes é React puro. 
+                Às vezes é no code + IA. O que importa é shippar produtos que funcionam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       {/* Featured Project - Roduno */}
       <section className="bg-slate py-20 px-8">
         <div className="max-w-6xl mx-auto">
