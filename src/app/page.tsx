@@ -162,7 +162,7 @@ export default function Home() {
               </div>
               <div className="hidden md:block w-1/3 text-center">
                 <div className="w-4 h-4 bg-cyan rounded-full mx-auto"></div>
-                <div className="w-1 h-16 bg-steel-blue mx-auto mt-4"></div>
+                <div className="w-1 h-12 bg-steel-blue mx-auto mt-4"></div>
               </div>
               <div className="w-full md:w-1/3"></div>
             </div>
@@ -171,9 +171,9 @@ export default function Home() {
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="w-full md:w-1/3"></div>
               <div className="hidden md:block w-1/3 text-center">
-                <div className="w-1 h-16 bg-steel-blue mx-auto mb-4"></div>
+                <div className="w-1 h-12 bg-steel-blue mx-auto mb-4"></div>
                 <div className="w-4 h-4 bg-cyan rounded-full mx-auto"></div>
-                <div className="w-1 h-16 bg-steel-blue mx-auto mt-4"></div>
+                <div className="w-1 h-12 bg-steel-blue mx-auto mt-4"></div>
               </div>
               <div className="w-full md:w-1/3">
                 <div className="bg-slate p-6 rounded-lg border-2 border-steel-blue">
@@ -210,9 +210,9 @@ export default function Home() {
                 </div>
               </div>
               <div className="hidden md:block w-1/3 text-center">
-                <div className="w-1 h-16 bg-steel-blue mx-auto mb-4"></div>
+                <div className="w-1 h-12 bg-steel-blue mx-auto mb-4"></div>
                 <div className="w-4 h-4 bg-cyan rounded-full mx-auto"></div>
-                <div className="w-1 h-16 bg-steel-blue mx-auto mt-4"></div>
+                <div className="w-1 h-12 bg-steel-blue mx-auto mt-4"></div>
               </div>
               <div className="w-full md:w-1/3"></div>
             </div>
@@ -221,7 +221,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="w-full md:w-1/3"></div>
               <div className="hidden md:block w-1/3 text-center">
-                <div className="w-1 h-16 bg-steel-blue mx-auto mb-4"></div>
+                <div className="w-1 h-12 bg-steel-blue mx-auto mb-4"></div>
                 <div className="w-4 h-4 bg-cyan rounded-full mx-auto"></div>
               </div>
               <div className="w-full md:w-1/3">
