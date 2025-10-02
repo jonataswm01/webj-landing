@@ -1,3 +1,5 @@
+import ContactForm from './components/ContactForm'
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-carvao">
@@ -362,6 +364,26 @@ export default function Home() {
               </button>
             </div>
           </div>
+        </div>
+      </section>
+      
+      {/* Contact Form Section */}
+      <section className="bg-carvao py-20 px-8">
+        <div className="max-w-4xl mx-auto">
+          {/* Section Title */}
+          <h2 className="font-titulo text-4xl md:text-5xl font-bold text-cyan uppercase tracking-wider text-center mb-16">
+            Let's Connect
+          </h2>
+          
+          {/* Intro Text */}
+          <p className="font-texto text-xl text-off-white text-center mb-12 max-w-3xl mx-auto leading-relaxed">
+            Disponível para conversas sobre tech, startups, desenvolvimento 
+            moderno ou qualquer papo sobre construir produtos digitais que 
+            importam. Vamos trocar ideia?
+          </p>
+          
+          {/* Contact Form */}
+          <ContactForm />
         </div>
       </section>
     </div>
