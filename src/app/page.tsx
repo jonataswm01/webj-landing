@@ -126,6 +126,131 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      {/* Story/Timeline Section */}
+      <section className="bg-carvao py-20 px-8">
+        <div className="max-w-6xl mx-auto">
+          {/* Section Title */}
+          <h2 className="font-titulo text-4xl md:text-5xl font-bold text-cyan uppercase tracking-wider text-center mb-16">
+            The Journey So Far
+          </h2>
+          
+          {/* Intro */}
+          <p className="font-texto text-xl text-off-white text-center mb-16 max-w-4xl mx-auto leading-relaxed">
+            De zero a CTO em 18 meses. Não foi sorte — foi obsessão por 
+            aprender, oportunidades certas e a combinação perfeita entre 
+            talento técnico e momento de mercado.
+          </p>
+          
+          {/* Timeline */}
+          <div className="space-y-12">
+            {/* Ponto 1 - Fevereiro 2024 */}
+            <div className="flex flex-col md:flex-row gap-8 items-center">
+              <div className="w-full md:w-1/3">
+                <div className="bg-slate p-6 rounded-lg border-2 border-cyan">
+                  <div className="font-titulo text-cyan text-sm uppercase tracking-wider mb-2">
+                    Fev 2024 — O Começo
+                  </div>
+                  <h3 className="font-titulo text-2xl text-off-white uppercase mb-4">
+                    Suporte Técnico
+                  </h3>
+                  <p className="font-texto text-off-white leading-relaxed">
+                    Primeiro contato profissional com tecnologia. Resolvia problemas 
+                    técnicos, mas sabia que queria mais — criar, não apenas consertar.
+                  </p>
+                </div>
+              </div>
+              <div className="hidden md:block w-1/3 text-center">
+                <div className="w-4 h-4 bg-cyan rounded-full mx-auto"></div>
+                <div className="w-1 h-16 bg-steel-blue mx-auto mt-4"></div>
+              </div>
+              <div className="w-full md:w-1/3"></div>
+            </div>
+            
+            {/* Ponto 2 - Mid 2024 */}
+            <div className="flex flex-col md:flex-row gap-8 items-center">
+              <div className="w-full md:w-1/3"></div>
+              <div className="hidden md:block w-1/3 text-center">
+                <div className="w-1 h-16 bg-steel-blue mx-auto mb-4"></div>
+                <div className="w-4 h-4 bg-cyan rounded-full mx-auto"></div>
+                <div className="w-1 h-16 bg-steel-blue mx-auto mt-4"></div>
+              </div>
+              <div className="w-full md:w-1/3">
+                <div className="bg-slate p-6 rounded-lg border-2 border-steel-blue">
+                  <div className="font-titulo text-cyan text-sm uppercase tracking-wider mb-2">
+                    Mid 2024 — A Descoberta
+                  </div>
+                  <h3 className="font-titulo text-2xl text-off-white uppercase mb-4">
+                    Web Designer
+                  </h3>
+                  <p className="font-texto text-off-white leading-relaxed">
+                    Migrei para web design e encontrei meu flow. Descobri que tinha 
+                    talento para criar interfaces que funcionam — visualmente e 
+                    tecnicamente. Foi aqui que o código começou a fazer sentido.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            {/* Ponto 3 - Late 2024 */}
+            <div className="flex flex-col md:flex-row gap-8 items-center">
+              <div className="w-full md:w-1/3">
+                <div className="bg-slate p-6 rounded-lg border-2 border-magenta">
+                  <div className="font-titulo text-cyan text-sm uppercase tracking-wider mb-2">
+                    Late 2024 — Full Stack
+                  </div>
+                  <h3 className="font-titulo text-2xl text-off-white uppercase mb-4">
+                    Developer Mode: ON
+                  </h3>
+                  <p className="font-texto text-off-white leading-relaxed">
+                    De design para desenvolvimento foi natural. React, TypeScript, 
+                    APIs, automações com n8n. Comecei a abraçar no code, low code 
+                    e IA como ferramentas legítimas — não muletas, mas aceleradores.
+                  </p>
+                </div>
+              </div>
+              <div className="hidden md:block w-1/3 text-center">
+                <div className="w-1 h-16 bg-steel-blue mx-auto mb-4"></div>
+                <div className="w-4 h-4 bg-cyan rounded-full mx-auto"></div>
+                <div className="w-1 h-16 bg-steel-blue mx-auto mt-4"></div>
+              </div>
+              <div className="w-full md:w-1/3"></div>
+            </div>
+            
+            {/* Ponto 4 - Out 2025 */}
+            <div className="flex flex-col md:flex-row gap-8 items-center">
+              <div className="w-full md:w-1/3"></div>
+              <div className="hidden md:block w-1/3 text-center">
+                <div className="w-1 h-16 bg-steel-blue mx-auto mb-4"></div>
+                <div className="w-4 h-4 bg-cyan rounded-full mx-auto"></div>
+              </div>
+              <div className="w-full md:w-1/3">
+                <div className="bg-slate p-6 rounded-lg border-2 border-cyan">
+                  <div className="font-titulo text-cyan text-sm uppercase tracking-wider mb-2">
+                    Out 2025 — Founder & CTO
+                  </div>
+                  <h3 className="font-titulo text-2xl text-off-white uppercase mb-4">
+                    Building Roduno
+                  </h3>
+                  <p className="font-texto text-off-white leading-relaxed">
+                    Hoje lidero toda a parte técnica da Roduno, startup que co-fundei 
+                    com meu tio Adriano. Estamos resolvendo um problema real de logística 
+                    rodoviária no Brasil — e eu sou responsável por fazer isso acontecer 
+                    tecnicamente.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Closing Statement */}
+          <div className="text-center mt-16">
+            <p className="font-titulo text-2xl text-cyan uppercase tracking-wider">
+              18 meses. Quatro transições. Uma constante: nunca parei de construir.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
