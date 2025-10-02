@@ -367,6 +367,94 @@ export default function Home() {
         </div>
       </section>
       
+      {/* Other Projects Section */}
+      <section className="bg-carvao py-20 px-8">
+        <div className="max-w-6xl mx-auto">
+          {/* Section Title */}
+          <h2 className="font-titulo text-4xl md:text-5xl font-bold text-cyan uppercase tracking-wider text-center mb-16">
+            Side Projects & Experiments
+          </h2>
+          
+          {/* Intro */}
+          <p className="font-texto text-xl text-off-white text-center mb-16 max-w-4xl mx-auto leading-relaxed">
+            Além da Roduno, mantenho projetos paralelos onde experimento 
+            tecnologias novas e aprimo minhas skills constantemente.
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Projeto 1 - WEBJ Portfolio */}
+            <div className="bg-slate p-8 rounded-lg border-2 border-cyan hover:border-magenta transition-all duration-300 hover:shadow-2xl hover:shadow-cyan/20">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="font-titulo bg-cyan text-carvao px-3 py-1 rounded text-sm uppercase tracking-wider">
+                  🔄 Always Evolving
+                </span>
+              </div>
+              
+              <h3 className="font-titulo text-2xl text-cyan uppercase mb-4">
+                WEBJ — This Site
+              </h3>
+              
+              <p className="font-texto text-off-white leading-relaxed mb-6">
+                Meu laboratório pessoal. Este próprio site é um projeto vivo onde 
+                implemento e testo tecnologias que estou aprendendo. Cada versão 
+                é melhor que a anterior.
+              </p>
+              
+              <div className="mb-6">
+                <p className="font-texto text-steel-blue text-sm mb-2">Built with:</p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="font-texto bg-cyan text-carvao px-2 py-1 rounded text-xs font-semibold">Next.js 15</span>
+                  <span className="font-texto bg-cyan text-carvao px-2 py-1 rounded text-xs font-semibold">TypeScript</span>
+                  <span className="font-texto bg-cyan text-carvao px-2 py-1 rounded text-xs font-semibold">Tailwind CSS</span>
+                  <span className="font-texto bg-cyan text-carvao px-2 py-1 rounded text-xs font-semibold">Server Actions</span>
+                </div>
+              </div>
+              
+              <div className="text-center">
+                <span className="font-texto text-cyan text-sm font-semibold">
+                  Você está aqui →
+                </span>
+              </div>
+            </div>
+            
+            {/* Projeto 2 - Placeholder */}
+            <div className="bg-slate p-8 rounded-lg border-2 border-steel-blue hover:border-cyan transition-all duration-300">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="font-titulo bg-steel-blue text-off-white px-3 py-1 rounded text-sm uppercase tracking-wider">
+                  💡 Coming Soon
+                </span>
+              </div>
+              
+              <h3 className="font-titulo text-2xl text-cyan uppercase mb-4">
+                [Próximo Projeto]
+              </h3>
+              
+              <p className="font-texto text-off-white leading-relaxed mb-6">
+                Sempre experimentando. Em breve, novos projetos aparecerão aqui.
+              </p>
+              
+              <div className="text-center">
+                <span className="font-texto text-steel-blue text-sm">
+                  Stay tuned!
+                </span>
+              </div>
+            </div>
+          </div>
+          
+          {/* Filosofia */}
+          <div className="mt-16 text-center">
+            <div className="bg-slate p-8 rounded-lg border-2 border-magenta max-w-4xl mx-auto">
+              <h3 className="font-titulo text-xl text-cyan uppercase mb-4">Filosofia</h3>
+              <p className="font-texto text-off-white leading-relaxed">
+                Acredito em aprender fazendo. Cada projeto é uma oportunidade de 
+                dominar uma nova tecnologia, pattern ou abordagem. O código não 
+                mente — ou funciona, ou não.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       {/* Contact Form Section */}
       <section className="bg-carvao py-20 px-8">
         <div className="max-w-4xl mx-auto">
