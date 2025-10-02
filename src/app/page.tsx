@@ -386,6 +386,108 @@ export default function Home() {
           <ContactForm />
         </div>
       </section>
+      
+      {/* Social Links Section */}
+      <section className="bg-warm-sand py-16 px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          {/* Section Title */}
+          <h2 className="font-titulo text-3xl md:text-4xl font-bold text-carvao uppercase tracking-wider mb-8">
+            Find Me Online
+          </h2>
+          
+          {/* Intro */}
+          <p className="font-texto text-lg text-carvao mb-12">
+            Presente nas principais plataformas tech. Conecta lá!
+          </p>
+          
+          {/* Social Links */}
+          <div className="flex flex-wrap justify-center gap-8 mb-8">
+            {/* LinkedIn */}
+            <a 
+              href="https://linkedin.com/in/jonataswm01" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-carvao/10 transition-all duration-300"
+            >
+              <div className="w-12 h-12 bg-carvao rounded-full flex items-center justify-center group-hover:bg-cyan transition-colors">
+                <span className="font-texto text-warm-sand text-xl">in</span>
+              </div>
+              <span className="font-texto text-carvao text-sm font-semibold">LinkedIn</span>
+              <span className="font-texto text-steel-blue text-xs">Professional network</span>
+            </a>
+            
+            {/* GitHub */}
+            <a 
+              href="https://github.com/jonataswm01" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-carvao/10 transition-all duration-300"
+            >
+              <div className="w-12 h-12 bg-carvao rounded-full flex items-center justify-center group-hover:bg-cyan transition-colors">
+                <span className="font-texto text-warm-sand text-xl">GH</span>
+              </div>
+              <span className="font-texto text-carvao text-sm font-semibold">GitHub</span>
+              <span className="font-texto text-steel-blue text-xs">Code repositories</span>
+            </a>
+            
+            {/* Email */}
+            <a 
+              href="mailto:contato@webj.com.br" 
+              className="group flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-carvao/10 transition-all duration-300"
+            >
+              <div className="w-12 h-12 bg-carvao rounded-full flex items-center justify-center group-hover:bg-cyan transition-colors">
+                <span className="font-texto text-warm-sand text-xl">@</span>
+              </div>
+              <span className="font-texto text-carvao text-sm font-semibold">Email</span>
+              <span className="font-texto text-steel-blue text-xs">Direct contact</span>
+            </a>
+          </div>
+          
+          {/* Microcopy */}
+          <p className="font-texto text-sm text-steel-blue">
+            Sempre aberto para networking, oportunidades e conversas sobre tech.
+          </p>
+        </div>
+      </section>
+      
+      {/* Footer */}
+      <footer className="bg-carvao py-12 px-8">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+            {/* Branding Line */}
+            <div className="text-center md:text-left">
+              <p className="font-titulo text-xl text-cyan uppercase tracking-wider mb-2">
+                WEBJ
+              </p>
+              <p className="font-texto text-steel-blue text-sm">
+                Building the future, one commit at a time.
+              </p>
+            </div>
+            
+            {/* Tech Badge */}
+            <div className="text-center">
+              <div className="bg-slate p-4 rounded-lg border border-steel-blue">
+                <p className="font-texto text-cyan text-sm font-semibold mb-1">
+                  Built with Next.js 15 + TypeScript + Tailwind CSS
+                </p>
+                <p className="font-texto text-steel-blue text-xs">
+                  Deployed on Vercel
+                </p>
+              </div>
+            </div>
+            
+            {/* Copyright */}
+            <div className="text-center md:text-right">
+              <p className="font-texto text-steel-blue text-sm mb-2">
+                © 2025 WEBJ. Maringá-PR, Brasil.
+              </p>
+              <p className="font-texto text-steel-blue text-xs">
+                Made with ☕ and lots of code
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
