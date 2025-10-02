@@ -106,7 +106,7 @@ export default function Home() {
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <span className="font-texto text-2xl">📅</span>
-                    <span className="font-texto text-off-white"><2 anos de carreira</span>
+                    <span className="font-texto text-off-white">&lt;2 anos de carreira</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <span className="font-texto text-2xl">🚀</span>
