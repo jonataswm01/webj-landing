@@ -250,6 +250,120 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      {/* Featured Project - Roduno */}
+      <section className="bg-slate py-20 px-8">
+        <div className="max-w-6xl mx-auto">
+          {/* Section Title */}
+          <h2 className="font-titulo text-4xl md:text-5xl font-bold text-cyan uppercase tracking-wider text-center mb-16">
+            Current Focus: Roduno
+          </h2>
+          
+          {/* Project Tag */}
+          <div className="text-center mb-8">
+            <span className="font-titulo bg-cyan text-carvao px-4 py-2 rounded-full text-sm uppercase tracking-wider">
+              🚀 In Active Development
+            </span>
+          </div>
+          
+          {/* Project Card */}
+          <div className="bg-carvao border-2 border-cyan rounded-lg p-8 hover:border-magenta transition-all duration-300 hover:shadow-2xl hover:shadow-cyan/20">
+            {/* Headline */}
+            <h3 className="font-titulo text-3xl md:text-4xl text-cyan uppercase tracking-wider mb-4 text-center">
+              O Ponto de Encontro da Estrada
+            </h3>
+            
+            {/* Subheadline */}
+            <p className="font-texto text-xl text-off-white text-center mb-12 max-w-4xl mx-auto">
+              Primeiro ecossistema gratuito de serviços para caminhoneiros do Brasil
+            </p>
+            
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              {/* Left Column - Problem & Solution */}
+              <div className="space-y-8">
+                {/* The Problem */}
+                <div className="bg-slate p-6 rounded-lg border-2 border-steel-blue">
+                  <h4 className="font-titulo text-xl text-cyan uppercase mb-4">The Problem</h4>
+                  <p className="font-texto text-off-white leading-relaxed mb-4">
+                    Caminhoneiros brasileiros perdem em média 3-5 dias parados esperando 
+                    carga. Isso representa R$ 500-1.000 de prejuízo diário. A busca por 
+                    fretes é fragmentada, desorganizada e ineficiente.
+                  </p>
+                  <p className="font-texto text-off-white leading-relaxed">
+                    40% dos caminhões rodam vazios no retorno. Dinheiro e tempo sendo 
+                    desperdiçados porque não existe uma conexão eficiente entre quem 
+                    tem carga e quem tem caminhão disponível.
+                  </p>
+                </div>
+                
+                {/* Our Solution */}
+                <div className="bg-slate p-6 rounded-lg border-2 border-cyan">
+                  <h4 className="font-titulo text-xl text-cyan uppercase mb-4">Our Solution</h4>
+                  <p className="font-texto text-off-white leading-relaxed mb-4">
+                    A Roduno conecta caminhoneiros com cargas disponíveis e transportadoras 
+                    com motoristas confiáveis — tudo via WhatsApp, de forma simples e direta.
+                  </p>
+                  <p className="font-texto text-off-white leading-relaxed">
+                    Um buscador de fretes em tempo real que transforma 3-5 dias de espera 
+                    em busca instantânea. Sem apps complexos, sem burocracia. Apenas conexão 
+                    eficiente entre demanda e oferta.
+                  </p>
+                </div>
+              </div>
+              
+              {/* Right Column - Role & Tech */}
+              <div className="space-y-8">
+                {/* My Role */}
+                <div className="bg-slate p-6 rounded-lg border-2 border-magenta">
+                  <h4 className="font-titulo text-xl text-cyan uppercase mb-4">My Role</h4>
+                  <h5 className="font-titulo text-lg text-off-white uppercase mb-4">Founder & CTO</h5>
+                  <p className="font-texto text-off-white leading-relaxed">
+                    Responsável por toda arquitetura técnica, desenvolvimento do sistema e 
+                    visão de produto. Transformando um problema complexo de logística em 
+                    uma experiência simples via WhatsApp.
+                  </p>
+                </div>
+                
+                {/* Tech Behind */}
+                <div className="bg-slate p-6 rounded-lg border-2 border-steel-blue">
+                  <h4 className="font-titulo text-xl text-cyan uppercase mb-4">Tech Behind</h4>
+                  <div className="space-y-3">
+                    <div className="flex flex-wrap gap-2">
+                      <span className="font-texto bg-cyan text-carvao px-3 py-1 rounded text-sm font-semibold">Next.js 15</span>
+                      <span className="font-texto bg-cyan text-carvao px-3 py-1 rounded text-sm font-semibold">TypeScript</span>
+                      <span className="font-texto bg-cyan text-carvao px-3 py-1 rounded text-sm font-semibold">n8n Automations</span>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="font-texto bg-steel-blue text-off-white px-3 py-1 rounded text-sm font-semibold">WhatsApp Integration</span>
+                      <span className="font-texto bg-steel-blue text-off-white px-3 py-1 rounded text-sm font-semibold">Real-time Data Processing</span>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="font-texto bg-magenta text-off-white px-3 py-1 rounded text-sm font-semibold">SEO-optimized Landing Pages</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Impacto Esperado */}
+                <div className="bg-slate p-6 rounded-lg border-2 border-cyan">
+                  <h4 className="font-titulo text-xl text-cyan uppercase mb-4">Impacto Esperado</h4>
+                  <ul className="font-texto text-off-white space-y-2">
+                    <li>• Reduzir tempo ocioso dos caminhoneiros de dias para minutos</li>
+                    <li>• Aumentar eficiência do mercado de transporte rodoviário brasileiro</li>
+                    <li>• Democratizar acesso a fretes de qualidade</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            {/* CTA */}
+            <div className="text-center mt-12">
+              <button className="font-titulo bg-cyan text-carvao px-8 py-4 rounded font-bold uppercase tracking-wider hover:bg-magenta transition-all duration-300 transform hover:scale-105">
+                Em breve: roduno.com.br
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
