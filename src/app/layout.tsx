@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Exo_2, Sora } from "next/font/google";
+import { Sora, Orbitron } from "next/font/google";
 import "./globals.css";
 
-const exo2 = Exo_2({
-  variable: "--font-exo2",
+const orbitron = Orbitron({
+  variable: "--font-orbitron",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  display: "swap",
 });
 
 const sora = Sora({
@@ -27,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${exo2.variable} ${sora.variable} antialiased`}
+        className={`${orbitron.variable} ${sora.variable} antialiased`}
       >
         {children}
       </body>

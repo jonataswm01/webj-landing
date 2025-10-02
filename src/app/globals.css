@@ -1,33 +1,58 @@
 @import "tailwindcss";
 
 :root {
-  /* Paleta de cores WEBJ */
-  --carvao: #0B1220;
-  --slate: #1F2937;
-  --steel-blue: #3B6A8A;
-  --cyan-accent: #00B7FF;
-  --magenta-pop: #FF2D95;
-  --off-white: #F4F6F8;
-  --warm-sand: #E7DDCF;
+  /* Nova Paleta — Tech Minimal + Electric */
+  --noir: #0A0E14;
+  --dark: #151922;
+  --gray: #242933;
+  --gray-light: #3D4452;
+  --electric: #00FF87;
+  --electric-dim: #00CC6D;
+  --white: #FFFFFF;
+  --ghost: #A0A7B8;
 }
 
 @theme inline {
   /* Cores customizadas */
-  --color-carvao: var(--carvao);
-  --color-slate: var(--slate);
-  --color-steel-blue: var(--steel-blue);
-  --color-cyan: var(--cyan-accent);
-  --color-magenta: var(--magenta-pop);
-  --color-off-white: var(--off-white);
-  --color-warm-sand: var(--warm-sand);
-  
+  --color-noir: var(--noir);
+  --color-dark: var(--dark);
+  --color-gray: var(--gray);
+  --color-gray-light: var(--gray-light);
+  --color-electric: var(--electric);
+  --color-electric-dim: var(--electric-dim);
+  --color-white: var(--white);
+  --color-ghost: var(--ghost);
+
   /* Fontes customizadas */
-  --font-titulo: var(--font-exo2);
+  --font-titulo: var(--font-orbitron);
   --font-texto: var(--font-sora);
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: var(--carvao);
-  color: var(--off-white);
+  background: var(--noir);
+  color: var(--white);
   font-family: var(--font-texto), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Cursor personalizado */
+body {
+  cursor: default;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+/* Glow effects */
+.glow-electric {
+  box-shadow: 0 0 20px rgba(0, 255, 135, 0.3);
+}
+
+.glow-electric-strong {
+  box-shadow: 0 0 40px rgba(0, 255, 135, 0.6);
 }
